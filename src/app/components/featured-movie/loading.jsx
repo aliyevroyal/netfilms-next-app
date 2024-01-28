@@ -1,0 +1,13 @@
+import Loading from "@/src/app/components/loading";
+
+import styles from "./styles.module.css";
+
+function FeatureMovieLoading() {
+  return (
+    <div style={{ height: 278 }} className={styles.movieWrapper}>
+      <Loading />
+    </div>
+  );
+}
+
+export { FeatureMovieLoading };
